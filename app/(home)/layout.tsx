@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
-export default function TasksLayout({
+export default function HomeLayout({
   children,
 }: {
   children: React.ReactNode;

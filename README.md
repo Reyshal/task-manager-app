@@ -8,9 +8,6 @@ A simple and modern frontend for the Task Manager app, built with [Next.js](http
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/) — utility-first CSS framework
 - [Axios](https://axios-http.com/) — for HTTP requests
-- [React Hook Form](https://react-hook-form.com/) — form handling
-- [Zod](https://zod.dev/) — schema validation
-- [NextAuth.js (optional)](https://next-auth.js.org/) — for future auth enhancements
 
 ---
 
@@ -46,52 +43,6 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the app.
-
----
-
-## 📦 Features
-
-- 🔐 **Authentication**
-  - Login / Register (via JWT)
-- ✅ **Task Management**
-  - View, add, edit, and delete tasks
-- 💡 **Form Validation**
-  - With Zod and React Hook Form
-- ⚙️ **API Integration**
-  - Axios-based service layer with error handling
-
----
-
-## 🗂 Project Structure
-
-```bash
-.
-├── app/
-│   ├── page.tsx              # Dashboard
-│   ├── login/page.tsx        # Login page
-│   ├── register/page.tsx     # Register page
-│   └── layout.tsx            # Root layout
-├── components/               # Reusable UI components
-│   └── TaskCard.tsx
-├── lib/                      # API functions, utilities
-│   └── api.ts
-├── hooks/                    # Custom React hooks
-├── styles/
-│   └── globals.css
-├── public/
-├── .env.local
-└── next.config.js
-```
-
----
-
-## 🧪 Todo / Improvements
-
-- [ ] Persist JWT in `HttpOnly` cookies
-- [ ] Protected routes (via middleware or client-side check)
-- [ ] Pagination / Filtering
-- [ ] Mobile responsive layout
-- [ ] Dockerfile / Deployment setup
 
 ---
 
