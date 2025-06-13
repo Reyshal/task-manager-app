@@ -1,4 +1,4 @@
-# 🧠 Task Manager Frontend
+# 🧠 Task Manager App
 
 A simple and modern frontend for the Task Manager app, built with [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/). This frontend interfaces with the [Task Manager API](https://github.com/Reyshal/task-manager-api), offering JWT-based authentication and task management UI.
 
@@ -18,8 +18,8 @@ A simple and modern frontend for the Task Manager app, built with [Next.js](http
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/Reyshal/task-manager-frontend.git
-cd task-manager-frontend
+git clone https://github.com/Reyshal/task-manager-app.git
+cd task-manager-app
 ```
 
 ### 2. Install dependencies
