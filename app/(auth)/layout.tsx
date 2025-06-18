@@ -9,7 +9,7 @@ export default function AuthLayout({
   const token = cookies().get("token")?.value;
 
   if (token) {
-    redirect("/tasks");
+    redirect("/");
   }
 
   return (

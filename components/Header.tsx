@@ -1,6 +1,7 @@
 "use client";
 
 import axios from "@/lib/axios";
+import { Button } from "./Button";
 
 export default function Header() {
   const handleLogout = async () => {
@@ -12,15 +13,11 @@ export default function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between p-4 shadow">
-      <h1 className="text-xl font-semibold">Task Manager</h1>
-      <button
-        type="submit"
-        onClick={handleLogout}
-        className="text-sm bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md"
-      >
-        Logout
-      </button>
+    <header className="py-4 shadow">
+      <div className="flex items-center justify-between max-w-[1280px] mx-auto px-4 xl:px-0">
+        <div className="text-xl font-semibold">Task Manager</div>
+        <Button onClick={handleLogout}>Logout</Button>
+      </div>
     </header>
   );
 }

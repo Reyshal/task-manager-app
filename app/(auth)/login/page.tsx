@@ -24,7 +24,7 @@ export default function LoginPage() {
     }
 
     // Redirect to the tasks page
-    window.location.href = "/tasks";
+    window.location.href = "/";
   };
 
   return (
