@@ -8,6 +8,7 @@ A simple and modern frontend for the Task Manager app, built with [Next.js](http
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/) — utility-first CSS framework
 - [Axios](https://axios-http.com/) — for HTTP requests
+- [Tanstack Query](https://tanstack.com/) - for state management 
 
 ---
 
